@@ -20,7 +20,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir project
-          unzip -o BerKalkulatorAndroid_projekt_v2.zip -d project
+          unzip -o BerKalkulatorAndroid_projekt_v2_1.zip -d project
 
       - name: Install Gradle
         uses: gradle/actions/setup-gradle@v4
